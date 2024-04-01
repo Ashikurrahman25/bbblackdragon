@@ -145,7 +145,7 @@ function addTxn(collection,txn) {
               caption: `
 <b>NEW <a href="${NDCUrl}">BABYBLACKDRAGON</a> Buy!</b>
 
-${'🐲'.repeat(Math.ceil(spent / 5) > 500 ? 500 : Math.ceil(spent / 5))}${
+${'🐲🔥'.repeat(Math.ceil(spent / 5) > 500 ? 500 : Math.ceil(spent / 5))}${
                 Math.ceil(spent / 5) > 500 ? '...' : ''
               }
 
@@ -164,7 +164,7 @@ ${'🐲'.repeat(Math.ceil(spent / 5) > 500 ? 500 : Math.ceil(spent / 5))}${
 
 <a href="https://nearblocks.io/txns/${
                 txn.transaction_hash
-              }">Tx</a> | <a href="https://twitter.com/babyisnear">X</a> | <a href="https://t.me/babyisnear">Website</a> | <a href="https://t.me/NearoBotUpdates">Updates</a>
+              }">Tx</a> | <a href="https://twitter.com/babyisnear">X</a>  | <a href="https://t.me/Dragon_Tech_Updates">Updates</a>
           `,
               parse_mode: 'HTML',
               reply_markup: {
