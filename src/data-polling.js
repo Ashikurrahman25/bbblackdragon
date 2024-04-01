@@ -116,10 +116,10 @@ function addTxn(collection,txn) {
         );
         const spent = TotalNDCGained * price;
 
-        if (spent < 5) {
+        //if (spent < 5) {
           // console.log("Well didn't reach limit!");
-          return;
-        }
+          //return;
+        //}
         let gifLink = 'https://t.me/bdrbotres/24';
 
         const NDCPrice = (spent / TotalNDCGained).toFixed(11);
